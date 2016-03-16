@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 20953cdfaff3d0a469a202f32081b3b6
+timeCreated: 1458129753
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bras droit
+    100002: bras gauche
+    100004: Camera
+    100006: Circle
+    100008: fesse droite
+    100010: fesse gauche
+    100012: jambe droite
+    100014: jambe droite.001
+    100016: jambe droite.001_end
+    100018: jambe gauche
+    100020: jambe gauche.001
+    100022: jambe gauche.001_end
+    100024: main droite
+    100026: main droite_end
+    100028: main gauche
+    100030: main gauche_end
+    100032: nerd
+    100034: //RootNode
+    100036: Sun
+    100038: "t\xEAte"
+    100040: "t\xEAte_end"
+    100042: "vert\xE8bre basse"
+    100044: "vert\xE8bre haute"
+    100046: "\xE9paule droite"
+    100048: "\xE9paule gauche"
+    400000: bras droit
+    400002: bras gauche
+    400004: Camera
+    400006: Circle
+    400008: fesse droite
+    400010: fesse gauche
+    400012: jambe droite
+    400014: jambe droite.001
+    400016: jambe droite.001_end
+    400018: jambe gauche
+    400020: jambe gauche.001
+    400022: jambe gauche.001_end
+    400024: main droite
+    400026: main droite_end
+    400028: main gauche
+    400030: main gauche_end
+    400032: nerd
+    400034: //RootNode
+    400036: Sun
+    400038: "t\xEAte"
+    400040: "t\xEAte_end"
+    400042: "vert\xE8bre basse"
+    400044: "vert\xE8bre haute"
+    400046: "\xE9paule droite"
+    400048: "\xE9paule gauche"
+    4300000: Circle
+    7400000: nerd|fire
+    7400002: nerd|idle
+    7400004: nerd|run
+    9500000: //RootNode
+    13700000: Circle
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
