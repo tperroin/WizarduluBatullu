@@ -4,16 +4,13 @@ using System.Collections;
 public class MoveCaract : MonoBehaviour
 {
 
-    public float speed = 5f;
+    public float speed = 10f;
     public float gravity = 20f;
 
     private CharacterController controller;
     private Vector3 moveDirection;
     private float deltaTime;
     private GameObject anim;
-
-    private float inputH;
-    private float inputV;
 
 
     // Use this for initialization
@@ -28,8 +25,6 @@ public class MoveCaract : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        inputH = Input.GetAxis("Horizontal");
-        inputV = Input.GetAxis("Vertical");
         deltaTime = Time.deltaTime;
 
         if (Input.GetAxis("Vertical") != 0)

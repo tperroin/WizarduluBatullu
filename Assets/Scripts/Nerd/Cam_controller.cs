@@ -9,8 +9,7 @@ public class Cam_controller : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
-        target = GameObject.Find("target").transform;
+        
         player = GameObject.Find("nerd").transform;
 
     }
@@ -19,7 +18,13 @@ public class Cam_controller : MonoBehaviour {
     void Update()
     {
 
-        transform.position = Vector3.Lerp(this.transform.position, target.position, 0.1f);
+        if(Input.GetKeyDown("t"))
+        {
+            this.transform.Translate(new Vector3(0, 0, 20));
+
+            this.transform.Rotate(new Vector3(0, 180, 0));
+
+        }
 
     }
 }
