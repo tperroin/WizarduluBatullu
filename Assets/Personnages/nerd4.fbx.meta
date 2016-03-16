@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 305736eeec5c053408f15159d6aa5e00
+timeCreated: 1458028330
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: bras droit
+    100004: bras gauche
+    100006: Camera
+    100008: Circle
+    100010: fesse droite
+    100012: fesse gauche
+    100014: jambe droite
+    100016: jambe droite.001
+    100018: jambe droite.001_end
+    100020: jambe gauche
+    100022: jambe gauche.001
+    100024: jambe gauche.001_end
+    100026: main droite
+    100028: main droite_end
+    100030: main gauche
+    100032: main gauche_end
+    100034: //RootNode
+    100036: Sun
+    100038: "t\xEAte"
+    100040: "t\xEAte_end"
+    100042: "vert\xE8bre basse"
+    100044: "vert\xE8bre haute"
+    100046: "\xE9paule droite"
+    100048: "\xE9paule gauche"
+    400000: Armature
+    400002: bras droit
+    400004: bras gauche
+    400006: Camera
+    400008: Circle
+    400010: fesse droite
+    400012: fesse gauche
+    400014: jambe droite
+    400016: jambe droite.001
+    400018: jambe droite.001_end
+    400020: jambe gauche
+    400022: jambe gauche.001
+    400024: jambe gauche.001_end
+    400026: main droite
+    400028: main droite_end
+    400030: main gauche
+    400032: main gauche_end
+    400034: //RootNode
+    400036: Sun
+    400038: "t\xEAte"
+    400040: "t\xEAte_end"
+    400042: "vert\xE8bre basse"
+    400044: "vert\xE8bre haute"
+    400046: "\xE9paule droite"
+    400048: "\xE9paule gauche"
+    4300000: Circle
+    7400000: Armature|ArmatureAction.001
+    9500000: //RootNode
+    13700000: Circle
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: '
+
+      Imported file ''nerd4'' conversion failed: Required human bone ''Spine'' not
+      found
+
+
+'
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction.001
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 1.5
+      lastFrame: 21.7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 2
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: "Armature/vert\xE8bre basse"
+        weight: 1
+      - path: "Armature/vert\xE8bre basse/fesse droite"
+        weight: 1
+      - path: "Armature/vert\xE8bre basse/fesse droite/jambe droite"
+        weight: 1
+      - path: "Armature/vert\xE8bre basse/fesse droite/jambe droite/jambe droite.001"
+        weight: 1
+      - path: "Armature/vert\xE8bre basse/fesse droite/jambe droite/jambe droite.001/jambe
+          droite.001_end"
+        weight: 1
+      - path: "Armature/vert\xE8bre basse/fesse gauche"
+        weight: 1
+      - path: "Armature/vert\xE8bre basse/fesse gauche/jambe gauche"
+        weight: 1
+      - path: "Armature/vert\xE8bre basse/fesse gauche/jambe gauche/jambe gauche.001"
+        weight: 1
+      - path: "Armature/vert\xE8bre basse/fesse gauche/jambe gauche/jambe gauche.001/jambe
+          gauche.001_end"
+        weight: 1
+      - path: "Armature/vert\xE8bre haute"
+        weight: 1
+      - path: "Armature/vert\xE8bre haute/t\xEAte"
+        weight: 1
+      - path: "Armature/vert\xE8bre haute/t\xEAte/t\xEAte_end"
+        weight: 0
+      - path: "Armature/vert\xE8bre haute/\xE9paule droite"
+        weight: 1
+      - path: "Armature/vert\xE8bre haute/\xE9paule droite/bras droit"
+        weight: 1
+      - path: "Armature/vert\xE8bre haute/\xE9paule droite/bras droit/main droite"
+        weight: 1
+      - path: "Armature/vert\xE8bre haute/\xE9paule droite/bras droit/main droite/main
+          droite_end"
+        weight: 1
+      - path: "Armature/vert\xE8bre haute/\xE9paule gauche"
+        weight: 1
+      - path: "Armature/vert\xE8bre haute/\xE9paule gauche/bras gauche"
+        weight: 1
+      - path: "Armature/vert\xE8bre haute/\xE9paule gauche/bras gauche/main gauche"
+        weight: 1
+      - path: "Armature/vert\xE8bre haute/\xE9paule gauche/bras gauche/main gauche/main
+          gauche_end"
+        weight: 1
+      - path: Camera
+        weight: 0
+      - path: Circle
+        weight: 0
+      - path: Sun
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: jambe droite.001_end
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jambe droite.001
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jambe droite
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jambe gauche.001_end
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jambe gauche.001
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jambe gauche
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: main droite_end
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: main droite
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bras droit
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: main gauche_end
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: main gauche
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bras gauche
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\xE9paule gauche"
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\xE9paule droite"
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "t\xEAte"
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: nerd4(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: -0.26975366, y: -1.0589776, z: -0.4988769}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 157.7374, y: 157.7374, z: 157.7374}
+      transformModified: 1
+    - name: "vert\xE8bre basse"
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: fesse droite
+      position: {x: -0, y: 0.01715962, z: 0}
+      rotation: {x: -0.40149972, y: -0.5517738, z: 0.6391553, w: -0.35471696}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+      transformModified: 1
+    - name: jambe droite
+      position: {x: 5.5879353e-11, y: 0.014440619, z: 2.6077032e-10}
+      rotation: {x: -0.670511, y: 0.3690733, z: -0.3716688, w: 0.5254162}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: jambe droite.001
+      position: {x: -6.239861e-10, y: 0.009436404, z: -1.862645e-10}
+      rotation: {x: 0.6170339, y: -0.45190245, z: 0.33739275, w: 0.5488348}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: jambe droite.001_end
+      position: {x: -0, y: 0.0038344674, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: fesse gauche
+      position: {x: -0, y: 0.01715962, z: 0}
+      rotation: {x: 0.2716595, y: -0.65286976, z: 0.66366935, w: 0.24393693}
+      scale: {x: 1, y: 1.0000002, z: 1}
+      transformModified: 1
+    - name: jambe gauche
+      position: {x: -0, y: 0.013871367, z: 0.0000000010692747}
+      rotation: {x: -0.64723295, y: -0.23710749, z: 0.2776402, w: 0.66916776}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: jambe gauche.001
+      position: {x: 4.142031e-10, y: 0.007915541, z: 3.630788e-11}
+      rotation: {x: 0.6256857, y: 0.28331995, z: -0.2977599, w: 0.66301304}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: jambe gauche.001_end
+      position: {x: -0, y: 0.0032218555, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: "vert\xE8bre haute"
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.7765892, y: -0.00000007510272, z: -0.00000009257664, w: 0.6300073}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: "t\xEAte"
+      position: {x: -0, y: 0.010378946, z: -1.4901161e-10}
+      rotation: {x: -0.056890935, y: 0.98881257, z: -0.09335127, w: -0.10148271}
+      scale: {x: 1, y: 0.9999997, z: 1}
+      transformModified: 1
+    - name: "t\xEAte_end"
+      position: {x: -0, y: 0.012196614, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: "\xE9paule droite"
+      position: {x: -0, y: 0.010378946, z: -1.4901161e-10}
+      rotation: {x: 0.6024999, y: 0.46789637, z: 0.5318841, w: -0.36764959}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: bras droit
+      position: {x: -7.4505804e-11, y: 0.019883556, z: -4.2375176e-10}
+      rotation: {x: -0.23938407, y: 0.2295135, z: -0.060240816, w: 0.9414828}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999996}
+      transformModified: 1
+    - name: main droite
+      position: {x: 4.4703483e-10, y: 0.020347156, z: 8.9406965e-10}
+      rotation: {x: -0.09857177, y: -0.07625673, z: 0.87243676, w: -0.47257024}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+      transformModified: 1
+    - name: main droite_end
+      position: {x: -0, y: 0.003095828, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: "\xE9paule gauche"
+      position: {x: -0, y: 0.010378946, z: -1.4901161e-10}
+      rotation: {x: 0.64370704, y: -0.429033, z: -0.5248274, w: -0.35514516}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: bras gauche
+      position: {x: -1.44355e-10, y: 0.02020173, z: 5.142647e-10}
+      rotation: {x: -0.07634845, y: -0.11206719, z: 0.44608662, w: 0.8846573}
+      scale: {x: 1.0000004, y: 1, z: 1}
+      transformModified: 1
+    - name: main gauche
+      position: {x: 8.9406965e-10, y: 0.022729687, z: -0.0000000011920929}
+      rotation: {x: 0.15905453, y: -0.018593451, z: 0.5083407, w: 0.84613574}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: main gauche_end
+      position: {x: -0, y: 0.0028137474, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Camera
+      position: {x: -1.2844815, y: 6.073945, z: 17.899721}
+      rotation: {x: -0.10961155, y: -0.70543456, z: 0.116900474, w: 0.69042134}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+      transformModified: 1
+    - name: Circle
+      position: {x: 0, y: 0, z: 0.000000059604645}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 98.90518, y: 100.00001, z: 100.00001}
+      transformModified: 1
+    - name: Sun
+      position: {x: 2.672326, y: 6.5585766, z: -0.49717045}
+      rotation: {x: -0.3606411, y: -0.3010571, z: -0.03462362, w: 0.88210195}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
