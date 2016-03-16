@@ -43,11 +43,6 @@ public class run : MonoBehaviour
 
         this.transform.Translate(new Vector3(0, 0, inputV * deltaTime * 30f));
 
-        if(Input.GetKeyDown("t"))
-        {
-            this.transform.Rotate(new Vector3(0, 180, 0));
-        }
-
         //La gravité d'un rigidbody ne fonctionne pas quand il y a un character controller
         //Gravité
         moveDirection.y -= 20f;
