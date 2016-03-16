@@ -25,8 +25,8 @@ public class run : MonoBehaviour
         anim.SetFloat("inputH", inputH);
         anim.SetFloat("inputV", inputV);
 
-        float moveX = inputH * 50f * Time.deltaTime *10;
-        float moveZ = inputV * 20f * Time.deltaTime*10;
+        float moveX = inputH * 50f * Time.deltaTime * 10;
+        float moveZ = inputV * 20f * Time.deltaTime * 20;
 
         if(moveZ <= 0f)
         {
