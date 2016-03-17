@@ -28,7 +28,7 @@ public class run : MonoBehaviour
         anim.SetFloat("inputV", inputV);
 
         float moveX = inputH * 50f * Time.deltaTime * 10;
-        float moveZ = inputV * 20f * Time.deltaTime * 20;
+        float moveZ = inputV * 50f * Time.deltaTime * 20;
 
         if (moveZ <= 0f)
         {
@@ -49,6 +49,12 @@ public class run : MonoBehaviour
 
         //Application des directions au Character Controller
         controller.Move(moveDirection * deltaTime);
+
+        if(Input.GetKeyDown("space"))
+        {
+            anim.Play("fire", -1, 0f);
+            this.transform.Translate(new Vector3(0, 50f * deltaTime, inputV * deltaTime * 50f));
+        }
 
 
     }
