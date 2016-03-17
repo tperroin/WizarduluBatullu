@@ -4,15 +4,15 @@ using System.Collections;
 public class LaunchObject : MonoBehaviour
 {
 
-    public Rigidbody spawnObject;
+    public GameObject spawnObject;
     private float throwPower;
     public Vector3 destination;
     public float speed = 5f;
+    public GameObject clone;
 
     // Use this for initialization
     void Start()
     {
-        spawnObject = GetComponent<Rigidbody>();
         destination = transform.position;
     }
 
@@ -22,22 +22,18 @@ public class LaunchObject : MonoBehaviour
 
         if (Input.GetKeyDown("space"))
         {
-            GameObject clone;
-            clone = Instantiate(spawnObject.transform, spawnObject.transform.position, spawnObject.transform.rotation) as GameObject;
-
-            float x = spawnObject.transform.position.x;
-            float y = spawnObject.transform.position.y;
-            float z = spawnObject.transform.position.z;
-            transform.position = Vector3.Lerp(
-                new Vector3(x, y, z), 
-                new Vector3(x, y, z * 100), 
-                speed);
+            Transform clone = (Transform)GameObject.Instantiate(transform, transform.position, transform.rotation);
+            Rigidbody gameObjectsRigidBody = clone.gameObject.AddComponent<Rigidbody>();
+            gameObjectsRigidBody.useGravity = false;
+            clone.gameObject.AddComponent<CapsuleCollider>();
+            gameObjectsRigidBody.velocity = transform.TransformDirection(Vector3.forward * 50);
         }
 
     }
 
     void OnCollisionExit(Collision col)
     {
-       // Destroy(col.gameObject);
+        if(!col.gameObject.name.Equals("nerd"))
+            Destroy(transform.gameObject);
     }
 }
