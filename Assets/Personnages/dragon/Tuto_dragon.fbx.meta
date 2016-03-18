@@ -1,0 +1,630 @@
+fileFormatVersion: 2
+guid: c020b85c04d654f4489f38668675767a
+timeCreated: 1458292114
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone.015
+    100004: Bone.016
+    100006: Bone.017
+    100008: Bone.017_end
+    100010: Bone.018
+    100012: Bone.019
+    100014: Bone.020
+    100016: Bone.020_end
+    100018: Bone.021
+    100020: Bone.022
+    100022: Bone.023
+    100024: Bone.023_end
+    100026: Bone.024
+    100028: Bone.025
+    100030: Bone.026
+    100032: Bone.026_end
+    100034: Camera
+    100036: Dragon
+    100038: Head (bottom)
+    100040: Head (bottom)_end
+    100042: Head (top)
+    100044: Head (top)_end
+    100046: Head before (bottom)
+    100048: Head before (top)
+    100050: Lamp
+    100052: Neck
+    100054: Neck 10
+    100056: Neck 11
+    100058: Neck 11_end
+    100060: Neck 2
+    100062: Neck 3
+    100064: Neck 4
+    100066: Neck 5
+    100068: Neck 6
+    100070: Neck 7
+    100072: Neck 8
+    100074: Neck 9
+    100076: Teeth
+    100078: //RootNode
+    100080: wing l 1
+    100082: Wing l 2
+    100084: Wing l 3
+    100086: Wing l 5
+    100088: Wing l 6
+    100090: Wing l 7
+    100092: Wing l 7_end
+    100094: Wing r 1
+    100096: Wing r 3
+    100098: Wing r 4
+    100100: Wing r 5
+    100102: Wing r 6
+    100104: Wing r 7
+    100106: Wing r 8
+    100108: Wing r 8_end
+    400000: Armature
+    400002: Bone.015
+    400004: Bone.016
+    400006: Bone.017
+    400008: Bone.017_end
+    400010: Bone.018
+    400012: Bone.019
+    400014: Bone.020
+    400016: Bone.020_end
+    400018: Bone.021
+    400020: Bone.022
+    400022: Bone.023
+    400024: Bone.023_end
+    400026: Bone.024
+    400028: Bone.025
+    400030: Bone.026
+    400032: Bone.026_end
+    400034: Camera
+    400036: Dragon
+    400038: Head (bottom)
+    400040: Head (bottom)_end
+    400042: Head (top)
+    400044: Head (top)_end
+    400046: Head before (bottom)
+    400048: Head before (top)
+    400050: Lamp
+    400052: Neck
+    400054: Neck 10
+    400056: Neck 11
+    400058: Neck 11_end
+    400060: Neck 2
+    400062: Neck 3
+    400064: Neck 4
+    400066: Neck 5
+    400068: Neck 6
+    400070: Neck 7
+    400072: Neck 8
+    400074: Neck 9
+    400076: Teeth
+    400078: //RootNode
+    400080: wing l 1
+    400082: Wing l 2
+    400084: Wing l 3
+    400086: Wing l 5
+    400088: Wing l 6
+    400090: Wing l 7
+    400092: Wing l 7_end
+    400094: Wing r 1
+    400096: Wing r 3
+    400098: Wing r 4
+    400100: Wing r 5
+    400102: Wing r 6
+    400104: Wing r 7
+    400106: Wing r 8
+    400108: Wing r 8_end
+    4300000: Dragon
+    4300002: Teeth
+    7400000: Armature|ArmatureAction
+    7400002: Armature|ArmatureAction.001
+    7400004: Armature|ArmatureAction.002
+    9500000: //RootNode
+    13700000: Dragon
+    13700002: Teeth
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Neck 6
+        weight: 1
+      - path: Armature/Neck 6/Bone.015
+        weight: 1
+      - path: Armature/Neck 6/Bone.015/Bone.016
+        weight: 1
+      - path: Armature/Neck 6/Bone.015/Bone.016/Bone.017
+        weight: 1
+      - path: Armature/Neck 6/Bone.015/Bone.016/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Neck 6/Bone.018
+        weight: 1
+      - path: Armature/Neck 6/Bone.018/Bone.019
+        weight: 1
+      - path: Armature/Neck 6/Bone.018/Bone.019/Bone.020
+        weight: 1
+      - path: Armature/Neck 6/Bone.018/Bone.019/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021/Bone.022
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021/Bone.022/Bone.023
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021/Bone.022/Bone.023/Bone.023_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024/Bone.025
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024/Bone.025/Bone.026
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024/Bone.025/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (bottom)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (bottom)/Head
+          (bottom)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (bottom)/Head
+          (bottom)/Head (bottom)_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (top)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (top)/Head
+          (top)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (top)/Head
+          (top)/Head (top)_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5/Wing l 6
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5/Wing l 6/Wing
+          l 7
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5/Wing l 6/Wing
+          l 7/Wing l 7_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6/Wing
+          r 7
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6/Wing
+          r 7/Wing r 8
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6/Wing
+          r 7/Wing r 8/Wing r 8_end
+        weight: 1
+      - path: Armature/Neck 7
+        weight: 1
+      - path: Armature/Neck 7/Neck 8
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9/Neck 10
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9/Neck 10/Neck 11
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9/Neck 10/Neck 11/Neck 11_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Dragon
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ArmatureAction.001
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Neck 6
+        weight: 1
+      - path: Armature/Neck 6/Bone.015
+        weight: 1
+      - path: Armature/Neck 6/Bone.015/Bone.016
+        weight: 1
+      - path: Armature/Neck 6/Bone.015/Bone.016/Bone.017
+        weight: 1
+      - path: Armature/Neck 6/Bone.015/Bone.016/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Neck 6/Bone.018
+        weight: 1
+      - path: Armature/Neck 6/Bone.018/Bone.019
+        weight: 1
+      - path: Armature/Neck 6/Bone.018/Bone.019/Bone.020
+        weight: 1
+      - path: Armature/Neck 6/Bone.018/Bone.019/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021/Bone.022
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021/Bone.022/Bone.023
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021/Bone.022/Bone.023/Bone.023_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024/Bone.025
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024/Bone.025/Bone.026
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024/Bone.025/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (bottom)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (bottom)/Head
+          (bottom)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (bottom)/Head
+          (bottom)/Head (bottom)_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (top)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (top)/Head
+          (top)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (top)/Head
+          (top)/Head (top)_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5/Wing l 6
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5/Wing l 6/Wing
+          l 7
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5/Wing l 6/Wing
+          l 7/Wing l 7_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6/Wing
+          r 7
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6/Wing
+          r 7/Wing r 8
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6/Wing
+          r 7/Wing r 8/Wing r 8_end
+        weight: 1
+      - path: Armature/Neck 7
+        weight: 1
+      - path: Armature/Neck 7/Neck 8
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9/Neck 10
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9/Neck 10/Neck 11
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9/Neck 10/Neck 11/Neck 11_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Dragon
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ArmatureAction.002
+      takeName: Armature|ArmatureAction.002
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Neck 6
+        weight: 1
+      - path: Armature/Neck 6/Bone.015
+        weight: 1
+      - path: Armature/Neck 6/Bone.015/Bone.016
+        weight: 1
+      - path: Armature/Neck 6/Bone.015/Bone.016/Bone.017
+        weight: 1
+      - path: Armature/Neck 6/Bone.015/Bone.016/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Neck 6/Bone.018
+        weight: 1
+      - path: Armature/Neck 6/Bone.018/Bone.019
+        weight: 1
+      - path: Armature/Neck 6/Bone.018/Bone.019/Bone.020
+        weight: 1
+      - path: Armature/Neck 6/Bone.018/Bone.019/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021/Bone.022
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021/Bone.022/Bone.023
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.021/Bone.022/Bone.023/Bone.023_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024/Bone.025
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024/Bone.025/Bone.026
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Bone.024/Bone.025/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (bottom)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (bottom)/Head
+          (bottom)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (bottom)/Head
+          (bottom)/Head (bottom)_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (top)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (top)/Head
+          (top)
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Neck 4/Neck 3/Neck 2/Neck/Head before (top)/Head
+          (top)/Head (top)_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5/Wing l 6
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5/Wing l 6/Wing
+          l 7
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/wing l 1/Wing l 2/Wing l 3/Wing l 5/Wing l 6/Wing
+          l 7/Wing l 7_end
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6/Wing
+          r 7
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6/Wing
+          r 7/Wing r 8
+        weight: 1
+      - path: Armature/Neck 6/Neck 5/Wing r 1/Wing r 3/Wing r 4/Wing r 5/Wing r 6/Wing
+          r 7/Wing r 8/Wing r 8_end
+        weight: 1
+      - path: Armature/Neck 7
+        weight: 1
+      - path: Armature/Neck 7/Neck 8
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9/Neck 10
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9/Neck 10/Neck 11
+        weight: 1
+      - path: Armature/Neck 7/Neck 8/Neck 9/Neck 10/Neck 11/Neck 11_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Dragon
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

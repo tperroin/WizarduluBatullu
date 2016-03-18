@@ -53,10 +53,6 @@ public class run : MonoBehaviour
         if(Input.GetKeyDown("space"))
         {
             anim.Play("fire", -1, 0f);
-            this.transform.Translate(new Vector3(0, 50f * deltaTime, inputV * deltaTime * 50f));
         }
-
-
     }
-
 }

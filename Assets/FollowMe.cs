@@ -1,0 +1,31 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class FollowMe : MonoBehaviour
+{
+
+    public Transform target;//set target from inspector instead of looking in Update
+    public float speed = 3f;
+
+
+    void Start()
+    {
+
+    }
+
+    void Update()
+    {
+
+        //rotate to look at the player
+        transform.LookAt(target.position);
+
+        //move towards the player
+        if (Vector3.Distance(transform.position, target.position) > 12f)
+        {
+            transform.position += transform.forward * speed * Time.deltaTime;
+            Debug.Log(transform.position.x);
+        }
+
+    }
+
+}
