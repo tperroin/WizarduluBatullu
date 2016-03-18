@@ -26,7 +26,7 @@ public class GameController : MonoBehaviour
 
     public void Loose()
     {
-        looseText.text = "You loose!";
+        looseText.text = "You lose!";
         loose = true;
     }
 }
