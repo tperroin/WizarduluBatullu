@@ -4,17 +4,17 @@ using System.Collections;
 public class GameController : MonoBehaviour
 {
 
-    public GUIText looseText;
+    public GUIText loseText;
     public GUIText winText;
 
     private bool win;
-    private bool loose;
+    private bool lose;
 
     void Start()
     {
         win = false;
-        loose = false;
-        looseText.text = "";
+        lose = false;
+        loseText.text = "";
         winText.text = "";
     }
 
@@ -24,9 +24,9 @@ public class GameController : MonoBehaviour
         win = true;
     }
 
-    public void Loose()
+    public void Lose()
     {
-        looseText.text = "You lose!";
-        loose = true;
+        loseText.text = "You lose!";
+        lose = true;
     }
 }
