@@ -23,9 +23,6 @@ public class FollowMe : MonoBehaviour
         if (Vector3.Distance(transform.position, target.position) > 12f)
         {
             transform.position += transform.forward * speed * Time.deltaTime;
-            Debug.Log(transform.position.x);
         }
-
     }
-
 }
