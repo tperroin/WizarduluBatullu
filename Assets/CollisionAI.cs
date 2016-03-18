@@ -25,7 +25,7 @@ public class CollisionAI : MonoBehaviour {
             gameController.Win();
         } else if(col.gameObject.name.Contains("nerd"))
         {
-            gameController.Loose();
+            gameController.Lose();
         } else
         {
             transform.Rotate(new Vector3(0, 10, 0));
