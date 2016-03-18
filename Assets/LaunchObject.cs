@@ -3,9 +3,6 @@ using System.Collections;
 
 public class LaunchObject : MonoBehaviour
 {
-
-    public GameObject spawnObject;
-    private float throwPower;
     public Vector3 destination;
     public float speed = 5f;
     public GameObject clone;
@@ -34,6 +31,8 @@ public class LaunchObject : MonoBehaviour
     void OnCollisionExit(Collision col)
     {
         if(!col.gameObject.name.Equals("nerd"))
+        {
             Destroy(transform.gameObject);
+        }
     }
 }
