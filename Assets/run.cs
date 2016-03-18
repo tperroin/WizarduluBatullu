@@ -39,7 +39,7 @@ public class run : MonoBehaviour
         moveDirection = transform.TransformDirection(moveDirection);
 
         //Rotation personnage
-        this.transform.Rotate(new Vector3(0, inputH * deltaTime * 30f, 0));
+        this.transform.Rotate(new Vector3(0, inputH * deltaTime * 80f, 0));
 
         this.transform.Translate(new Vector3(0, 0, inputV * deltaTime * 30f));
 

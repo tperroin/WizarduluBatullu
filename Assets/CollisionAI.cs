@@ -15,9 +15,17 @@ public class CollisionAI : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-        transform.Rotate(new Vector3(0, 5, 0));
-        Debug.Log(col.gameObject.name);
-        //if (!col.gameObject.name.Equals("nerd"))
-        //    Destroy(transform.gameObject);
+        
+        if(col.gameObject.name.Contains("burger"))
+        {
+            Destroy(transform.gameObject);
+
+            Debug.Log("You WIN bitch !!!");
+        } else
+        {
+            transform.Rotate(new Vector3(0, 10, 0));
+            transform.Translate(new Vector3(10, 0, 0));
+            Debug.Log(col.gameObject.name);
+        }
     }
 }
